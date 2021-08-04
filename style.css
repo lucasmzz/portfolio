@@ -210,7 +210,6 @@
   }
 }
 .about {
-  height: 100vh;
   background: lightgray;
   padding: 4rem 0;
   position: relative;
@@ -236,7 +235,7 @@
 }
 
 .about__container {
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -265,6 +264,9 @@
 }
 
 @media only screen and (max-width: 1000px) {
+  .about__container {
+    width: 80%;
+  }
   .about__title {
     padding: 10px 15px;
     width: 25%;
