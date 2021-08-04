@@ -246,8 +246,9 @@
 
 .about {
   background: lightgray;
-  padding: 4rem 0;
+  padding: 5rem 0;
   position: relative;
+  min-height: 100vh;
 }
 
 .about__title-container {
